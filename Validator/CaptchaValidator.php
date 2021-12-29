@@ -16,7 +16,9 @@ use Symfony\Contracts\Translation\TranslatorInterface;
  */
 class CaptchaValidator
 {
-    /** @var RequestStack */
+    /**
+     * @var RequestStack
+     */
     private $session;
 
     /**
